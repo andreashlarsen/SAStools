@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1J6V1SM060"></script>
+<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-1J6V1SM060');</script>
+
+<style>
+body {
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+  background-color: #f2e1b1;  /* softer background */
+  color: #222;
+}
+h1, h2, h3 {
+  text-transform: none !important;
+  letter-spacing: 0.5px;
+}
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;      /* ensures at most 4 tiles across */
+  margin: 0 auto;         /* centers the grid as a block */
+  gap: 1.2rem;
+  justify-content: center; /* centers the entire grid itself */
+}
+.tiles article {
+  flex: 1 1 220px;           /* flexible width per tile */
+  max-width: 240px;
+}
+.tiles article:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.tiles article p {
+  font-size: 1.0rem;      /* smaller than default (usually ~1rem) */
+  line-height: 1.3;       /* keeps it readable */
+  margin: 0.3rem 0 0.6rem 0;
+}
+#footer {background-color: #f2e1b1; box-shadow: 0 -2px 6px rgba(0,0,0,0.05);}
+</style>
+<title>SAS Tools</title>
+
+<link rel="icon" href="favicon.png" type="image/x-icon" />
+
+</head>
+	
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+	
+<!-- Main -->
+<div id="main">
+<div class="inner">
+	
+<header>
+<h3 align="center"><br>SAStools.org</h3> 
+<h1 align="center">Tools for analyzing SAXS and SANS data</h1> 
+</header>
+
+<br>
+<br>
+
+<h3 align="center"><em>Programs</em></h3>
+<section class="tiles">
+		
+<!------------------------------------------------------------->
+<!-- BayesApp -->
+<!------------------------------------------------------------->
+<article class="style1">
+<span class="image">
+<img src="BayesApp/BayesApp.png" />
+</span>
+<a href="BayesApp/BayesApp.html">
+<h2>BayesApp</h2>
+<div class="content">
+<p>Generate the pair distance distribution: p(r) <br>Quality check of data. <br>Guinier Analysis <br>Porod plot <br>Kratky plot</p>
+</div>
+</a>
+</article>
+<!------------------------------------------------------------->
+
+<!------------------------------------------------------------->
+<!-- Shape2SAS -->
+<!------------------------------------------------------------->
+<article class="style1">
+<span class="image">
+<img src="Shape2SAS/Shape2SAS.png" />
+</span>
+<a href="Shape2SAS/Shape2SAS.html">
+<h2>Shape2SAS</h2>
+<div class="content">
+<p>Simulate SAS from user-defined shapes<br>Virtual experiments<br>Experiment design<br>Hypothesis testing</p>
+</div>
+</a>
+</article>
+<!------------------------------------------------------------->
+
+<!------------------------------------------------------------->
+<!-- BayesFit -->
+<!------------------------------------------------------------->
+<article class="style1">
+<span class="image">
+<img src="BayesFit/BayesFit.png" />
+</span>
+<a href="BayesFit/BayesFit.html">
+<h2>BayesFit</h2>
+<div class="content">
+<p>Fit SAS data with form factor and structure factors, using Bayesian refinement</p>
+</div>
+</a>
+</article>
+<!------------------------------------------------------------->
+
+
+<!------------------------------------------------------------->
+<!-- ML-SAScombine -->
+<!------------------------------------------------------------->
+<article class="style1">
+<span class="image">
+<img src="ML-SAScombine/ML-SAScombine.png" />
+</span>
+<a href="ML-SAScombine/ML-SAScombine.html">
+<h2>ML-SAScombine</h2>
+<div class="content">
+<p>Combine data using maximum likelihood</p>
+</div>
+</a>
+</article>
+<!------------------------------------------------------------->
+</section>
+
+<br>
+<br>
+
+<h3 align="center"><em>Other resources</em></h3>
+<section class="tiles">
+<!------------------------------------------------------------->
+<!-- SASTutorials.org -->
+<!------------------------------------------------------------->
+<article class="style1">
+<span class="image">
+<img src="SAStutorials/SAStutorials.png" />
+</span>
+<a href="https://sastutorials.org/" target="_blank">
+<h2>SAStutorials.org</h2>
+<div class="content">
+<p>Tutorials for SAS analysis</p>
+</div>
+</a>
+</article>
+<!------------------------------------------------------------->
+</section>
+
+<br>
+<br>
+
+<h3 align="center"><em>About this website</em></h3>
+<section class="tiles">
+
+<!------------------------------------------------------------->
+<!-- ABOUT SAStools.org -->
+<!------------------------------------------------------------->
+<article class="style1">
+<span class="image">
+<img src="About/About.png" />
+</span>
+<a href="About/About.html">
+<h2>About SAStools.org</h2>
+<div class="content">
+<p>About SAStools.org</p>
+</div>
+</a>
+</article>
+<!------------------------------------------------------------->
+
+</section>
+
+<!-- end Main -->
+</div>
+	
+<br>
+<!-- Footer -->
+<footer id="footer">
+    <div class="inner" style="margin-left: 30px;">
+        <section>
+            <a href="About/About.html"><img src="logo.png" width=100px /></a>
+
+            <h3>Source code for website</h3>
+            <ul> 
+                <li>The HTML/CSS for this website can be found at <a href="https://github.com/andreashlarsen/SAStools" target="_blank">GitHub</a>.</li>
+            </ul>
+
+            <h3>Contact</h3>
+            <ul> 
+                <li> Andreas Haahr Larsen (Niels Bohr Institute, University of Copenhagen)
+            </ul>
+
+        </section>
+    </div>
+</footer>
+	
+<!-- end Wrapper -->
+</div>
+
+<!-- Scripts -->
+<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/js/browser.min.js"></script>
+<script type="text/javascript" src="./assets/js/breakpoints.min.js"></script>
+<script type="text/javascript" src="./assets/js/util.js"></script>
+<script type="text/javascript" src="./assets/js/main.js"></script>
+<script>MathJax = {tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}};</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</div>
+</body>
+</html>
